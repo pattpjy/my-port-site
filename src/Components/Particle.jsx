@@ -30,7 +30,7 @@ const Particle = () => {
         interactivity: {
           detect_on: "canvas",
           events: {
-            onhover: { enable: true, mode: "bubble" },
+            onhover: { enable: true, mode: "repulse" },
             onclick: { enable: true, mode: "repulse" },
             resize: true,
           },
