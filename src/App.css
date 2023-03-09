@@ -5,7 +5,8 @@
   text-align: center;
 }
 .banner {
-  background-image: url("src/asset/bailey.jpg");
+  background-image: url("../src/asset/bailey.jpg");
+  background-color: burlywood;
   background-size: cover;
   height: 45em;
   width: 100%;
