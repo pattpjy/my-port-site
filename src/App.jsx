@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Header } from "./Components/Header/Header";
 import "./App.css";
+import Particle from "./Components/Particle";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <a className="logo">PS Patt</a>
         <Header />
       </div>
+      <Particle />
       <div className="banner">
         <h2>Hello, I am a developer!</h2>
         <button>More</button>
